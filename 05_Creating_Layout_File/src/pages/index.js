@@ -6,7 +6,7 @@ export default function Home() {
       <section>
         <div>
           <h2>Design</h2>
-          <h3>Develop & Deploy</h3>
+          <h3>Develop &amp; Deploy</h3>
           <p>Fullstack Web Developer in France</p>
         </div>
       </section>

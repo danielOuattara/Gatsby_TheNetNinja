@@ -13,7 +13,7 @@ export default function Frontends() {
                     <Link to="/projects/frontends">Frontend | </Link>
                     <Link to="/projects/databases">Database  </Link>
                 </ul> */}
-                <h3>My Projects & Websites </h3>
+                <h3>My Projects &amp; Websites </h3>
             </div>
         </Layout>
     );
