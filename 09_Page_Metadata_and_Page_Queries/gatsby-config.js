@@ -8,8 +8,8 @@ module.exports = {
   /* Your site config here */
   plugins: [],
   siteMetadata: {
-    title: "Web Warior",
-    description: "Web dev portfolio",
+    title: "Web Warrior",
+    description: "Web Development Portfolio",
     copyright: "This website is copyright 2021 Web Warrior"
   }
 }
