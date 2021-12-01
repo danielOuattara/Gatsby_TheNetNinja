@@ -8,11 +8,6 @@ export default function Frontends() {
         <Layout >
             <div className={styles.portfolio}>
                 <h2>Portfolio</h2>
-                {/* <ul>
-                    <Link to="/projects/backends">Backend | </Link>
-                    <Link to="/projects/frontends">Frontend | </Link>
-                    <Link to="/projects/databases">Database  </Link>
-                </ul> */}
                 <h3>My Projects &amp; Websites </h3>
             </div>
         </Layout>

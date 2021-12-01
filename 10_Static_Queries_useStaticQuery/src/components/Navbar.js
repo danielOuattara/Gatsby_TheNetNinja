@@ -2,8 +2,9 @@ import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 
 export default function Navbar() {
+    
     const data = useStaticQuery(graphql`
-        query SiteInfo {
+        query SiteInfoNavbar {
             site {
                 siteMetadata {
                 title

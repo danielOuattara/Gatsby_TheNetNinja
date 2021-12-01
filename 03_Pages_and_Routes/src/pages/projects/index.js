@@ -10,5 +10,5 @@ export default function Frontends() {
                 <li>Database</li>
             </ul>
         </div>
-    )
+    );
 }

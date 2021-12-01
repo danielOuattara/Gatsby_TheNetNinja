@@ -5,8 +5,8 @@ import * as styles from './../styles/home.module.css';
 
 
 export default function Home({data}) {
-  console.log(data);
-  const { title, description } = data.site.siteMetadata
+  console.log('data =', data);
+  const { title, description } = data.site.siteMetadata;
   return (
     <Layout>
       <section className={styles.header}>
@@ -25,14 +25,12 @@ export default function Home({data}) {
 
 
 export const query = graphql `
-query MyQuery {
-  site {
-    siteMetadata {
-      copyright
-      description
-      title
+  query SiteInfo {
+    site {
+      siteMetadata {
+        description
+        title
+      }
     }
   }
-}
-
 `

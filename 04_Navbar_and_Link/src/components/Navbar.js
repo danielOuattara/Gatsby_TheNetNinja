@@ -3,14 +3,14 @@ import { Link } from 'gatsby';
 
 export default function Navbar() {
     return (
-        <nav>
+        <div className="links">
             <h1>Web Warrior</h1>
-            <div className="links">
+            <nav>
                 <Link to="/">Home | </Link>
                 <Link to="/about">About | </Link>
                 <Link to="/projects">Projects Portfolio</Link>
-            </div>
-        </nav>
+            </nav>
+        </div>
     );
 }
 

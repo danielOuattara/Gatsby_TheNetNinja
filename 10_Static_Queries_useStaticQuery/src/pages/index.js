@@ -25,7 +25,7 @@ export default function Home({data}) {
 
 
 export const query = graphql `
-query MyQuery {
+query SiteInfoIndex {
   site {
     siteMetadata {
       copyright
