@@ -22,6 +22,7 @@ export default function Projects({ data }) {
                             <p>{project.frontmatter.stack}</p>
                         </div>
                     </Link >
+                
                  )}</div>
                 <p>Contact me : {contact} </p>
             </div>
