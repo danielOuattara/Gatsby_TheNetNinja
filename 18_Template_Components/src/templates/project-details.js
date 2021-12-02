@@ -9,10 +9,10 @@ function ProjectDetails() {
             <h2>title</h2>
             <h3>stack</h3> 
             <div className={styles.featured}>
-                <GatsbyImage image="image" alt="alt" />
+                <GatsbyImage image="image" alt="alt" /> {/* TODO */}
             </div> 
 
-            <div className={styles.html} dangerouslySetInnerHTML={} />
+            <div className={styles.html} dangerouslySetInnerHTML={} /> {/* TODO */}
         </div>
     )
 }
