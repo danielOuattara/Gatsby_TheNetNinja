@@ -3,7 +3,7 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from './../../components/Layout';
 import * as styles from './../../styles/project.module.css';
-import {GatsbyImage, getImage} from "gatsby-plugin-image"
+import {GatsbyImage, getImage} from "gatsby-plugin-image";
 
 export default function Projects({ data }) {
     // console.log(data);
