@@ -8,7 +8,7 @@ import {GatsbyImage, getImage} from "gatsby-plugin-image"
 export default function Home({data}) {
   const { title, description } = data.site.siteMetadata;
   const image = getImage(data.file.childImageSharp);
-  // console.log("image ===", image);
+  console.log("image ===", image);
 
   return (
     <Layout>
@@ -19,8 +19,8 @@ export default function Home({data}) {
           <p>Fullstack Web Developer in France</p>
           <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
         </div>
-        <GatsbyImage image={image} alt="site banner"/>
-        <p>{title} -- {description}</p>
+        <GatsbyImage image={image}  alt="site banner"/>
+        <p>{ title} -- {description}</p>
       </section>
     </Layout>
   );
