@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    'gatsby-transformer-remark',
+    "gatsby-transformer-remark",
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
@@ -30,6 +30,6 @@ module.exports = {
     title: "Web Warrior",
     description: "Web Development Portfolio",
     copyright: "This website is copyright 2021 Web Warrior",
-    contact: "daniel.ouattara@gmx.com"
-  }
+    contact: "daniel.ouattara@gmx.com",
+  },
 }
